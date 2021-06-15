@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin: 7px 13px;
+    filter: invert();
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb{
+    padding-left: 800px ;
+}
+
+.insta img{
+    width: 40px;
+    height: 40px;
+}
+
+.insta a:hover{
+    filter: invert();
+}
+
+.navigation div a{
+    display: block;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+
+.navigation a:hover{
+    color:black;
+}
+
+.fb a:hover{
+    filter: invert();
+}
+
+.heading{
+    margin: 12px 15px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+#two{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#one{
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+#three{
+    width: 850px;
+    height: 300px;
+}
+
+#one{
+    width: 900px;
+    height: 300px;
+    margin: 12px 12px;
+    padding: 8px 8px;
+}
+
+#two{
+    display: flex;
+    
+    width: 942px;
+    height: 300px;
+    margin: 12px 12px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 7px black;
+    background-color: rgba(236, 201, 201,0.3);
+}
+
+.prize{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 0px 4px;
+    padding: 8px 3px;
+    
+    
+}
+
+
+#reward{
+    font-size: 28px;
+    
+}
+
+.inner1{
+    margin: 12px 1px;
+    padding: 8px 0px;
+    font-size: 18px;
+}
+
+.inner img{
+    height: 200px;
+    width: 200px;
+    margin: 29px 4px;
+}
+
+#one{
+    font-size: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn{
+    padding: 8px 17px;
+    margin: 6px 8px;
+    background-color: black;
+    border: 2px solid rgb(36, 35, 35);
+    border-radius: 8px;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(110, 104, 104);
+    color: black;
+}
+
